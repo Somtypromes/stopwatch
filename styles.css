@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(199, 34, 34);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-top: 250px;
+}
+.display{
+    font-size: 80px;
+    color: white;
+    margin-bottom: 25px;
+}
+.controls button{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+.startbtn{
+    background-color: rgb(255, 191, 28);
+}
+.stopbtn{
+    background-color: rgb(255, 191, 28);
+}
+.resetbtn{
+    background-color: rgb(255, 191, 28);
+}
+
+footer{
+    color: white;
+}
